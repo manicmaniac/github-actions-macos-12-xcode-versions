@@ -10,6 +10,7 @@
     },
     "xamarin": {
         "vsmac": "latest",
+        "vsmac_preview": "preview",
         "mono-versions": [
             "6.12.0.174"
         ],
@@ -113,7 +114,9 @@
         { "name": "PSScriptAnalyzer" }
     ],
     "npm": {
-        "global_packages": []
+        "global_packages": [
+            { "name": "appcenter-cli", "test": "appcenter --version" }
+        ]
     },
     "brew": {
         "common_packages": [
