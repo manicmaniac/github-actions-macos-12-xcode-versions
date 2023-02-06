@@ -1,6 +1,6 @@
 {
     "xcode": {
-        "default": "13.4.1",
+        "default": "14.0.1",
         "versions": [
             { "link": "14.1", "version": "14.1.0"},
             { "link": "14.0.1", "version": "14.0.1" },
@@ -155,6 +155,7 @@
             "bazelisk",
             "carthage",
             "cmake",
+            "colima",
             "gh",
             "gnupg",
             "gnu-tar",
@@ -180,7 +181,8 @@
         "cask_packages": [
             "julia",
             "vagrant",
-            "virtualbox"
+            "virtualbox",
+            "parallels"
         ]
     },
     "gcc": {
